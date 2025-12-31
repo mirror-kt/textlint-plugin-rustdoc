@@ -1,4 +1,4 @@
-import {RustdocProcessor,} from "./RustdocProcessor.js";
+import { RustdocProcessor } from "./RustdocProcessor.js";
 
 export default {
   Processor: RustdocProcessor,

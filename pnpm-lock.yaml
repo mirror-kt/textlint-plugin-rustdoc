@@ -11,12 +11,6 @@ importers:
       '@keqingmoe/tree-sitter':
         specifier: ^0.26.2
         version: 0.26.2
-      '@textlint/ast-node-types':
-        specifier: ^15.5.0
-        version: 15.5.0
-      '@textlint/types':
-        specifier: ^15.5.0
-        version: 15.5.0
       tree-sitter-rust:
         specifier: ^0.24.0
         version: 0.24.0
@@ -30,7 +24,13 @@ importers:
       '@changesets/cli':
         specifier: ^2.29.8
         version: 2.29.8(@types/node@25.0.3)
+      '@textlint/ast-node-types':
+        specifier: ^15.5.0
+        version: 15.5.0
       '@textlint/ast-tester':
+        specifier: ^15.5.0
+        version: 15.5.0
+      '@textlint/types':
         specifier: ^15.5.0
         version: 15.5.0
       '@types/node':
