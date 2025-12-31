@@ -1,5 +1,5 @@
-import Parser, {Query} from '@keqingmoe/tree-sitter';
-import RustLanguage from 'tree-sitter-rust';
+import Parser, { Query } from "@keqingmoe/tree-sitter";
+import RustLanguage from "tree-sitter-rust";
 
 const parser = new Parser();
 parser.setLanguage(RustLanguage);
@@ -13,7 +13,9 @@ fn main() {
 }
 `);
 
-const query = new Query(RustLanguage, `
+const query = new Query(
+    RustLanguage,
+    `
 ; Rustdocコメントを抽出するクエリ
 
 ; 行ドキュメントコメント（/// と //!）
@@ -81,7 +83,8 @@ const query = new Query(RustLanguage, `
 ; 内部ドキュメントコメント（//! クレート/モジュールレベル）
 (line_comment) @doc.inner
 (#match? @doc.inner "^//!")
-`);
+`,
+);
 
 const root = tree.rootNode;
 const captures = query.captures(root);
