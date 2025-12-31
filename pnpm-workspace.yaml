@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - '@keqingmoe/tree-sitter'
+  - esbuild
+  - tree-sitter-query
+  - tree-sitter-rust
