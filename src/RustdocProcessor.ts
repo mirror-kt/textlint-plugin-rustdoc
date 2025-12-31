@@ -1,4 +1,4 @@
-import Parser, {Query} from "@keqingmoe/tree-sitter";
+import Parser, { Query } from "@keqingmoe/tree-sitter";
 import type {
   TextlintMessage,
   TextlintPluginOptions,
@@ -7,7 +7,7 @@ import type {
   TextlintPluginProcessor,
 } from "@textlint/types";
 import RustLanguage from "tree-sitter-rust";
-import {convertToTextlintAst} from "./comment.js";
+import { convertToTextlintAst } from "./comment.js";
 
 // Rustdocコメントを抽出するクエリ
 // 行コメントとブロックコメントを全て取得し、後でフィルタリング
@@ -39,9 +39,7 @@ export class RustdocProcessor implements TextlintPluginProcessor {
     preProcess(
       text: string,
       filePath?: string,
-    ):
-      | TextlintPluginPreProcessResult
-      | Promise<TextlintPluginPreProcessResult>;
+    ): TextlintPluginPreProcessResult | Promise<TextlintPluginPreProcessResult>;
     postProcess(
       messages: Array<TextlintMessage>,
       filePath?: string,
