@@ -7,11 +7,15 @@
   "files": [
     "./dist"
   ],
+  "publishConfig": {
+    "provenance": true
+  },
   "scripts": {
     "test": "tsx --test",
     "format": "biome format --write .",
     "lint": "biome lint --write .",
-    "build": "tsc --noEmit && tsup-node"
+    "build": "tsc --noEmit && tsup-node",
+    "release": "pnpm run build && changeset publish"
   },
   "keywords": [
     "textlintplugin"
