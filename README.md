@@ -1,6 +1,6 @@
 ## textlint-plugin-rustdoc
 
-![NPM Version](https://img.shields.io/npm/v/%40mirror-kt%2Ftextlint-plugin-rustdoc)
+[![NPM Version](https://img.shields.io/npm/v/%40mirror-kt%2Ftextlint-plugin-rustdoc)](https://www.npmjs.com/package/@mirror-kt/textlint-plugin-rustdoc)
 
 [textlint](https://textlint.org) plugin to support [rustdoc](https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html)
 comments.
@@ -30,3 +30,7 @@ And write the following content in the textlint configuration file (e.x. `.textl
   }
 }
 ```
+
+### License
+
+This project is licensed under [MIT License](https://opensource.org/license/mit).

@@ -1,7 +1,7 @@
 {
   "name": "@mirror-kt/textlint-plugin-rustdoc",
   "version": "0.1.1",
-  "description": "",
+  "description": "textlint plugin to support rustdoc",
   "type": "module",
   "main": "./dist/index.js",
   "files": [
