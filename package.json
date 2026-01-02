@@ -24,7 +24,6 @@
   "repository": "https://github.com/mirror-kt/textlint-plugin-rustdoc",
   "author": "Kano Misato <me@mirror-kt.dev>",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.2",
   "dependencies": {
     "@keqingmoe/tree-sitter": "^0.26.2",
     "tree-sitter-rust": "^0.24.0"
@@ -40,5 +39,6 @@
     "typescript": "^5.9.3",
     "@textlint/ast-node-types": "^15.5.0",
     "@textlint/types": "^15.5.0"
-  }
+  },
+  "packageManager": "pnpm@10.26.2"
 }
