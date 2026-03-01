@@ -40,7 +40,7 @@
     "@textlint/ast-node-types": "^15.5.0",
     "@textlint/types": "^15.5.0"
   },
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.30.1",
   "pnpm": {
     "executionEnv": {
       "nodeVersion": "25.2.1"
