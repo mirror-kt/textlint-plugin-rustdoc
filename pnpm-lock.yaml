@@ -29,7 +29,7 @@ importers:
         version: 15.5.0
       '@textlint/ast-tester':
         specifier: ^15.5.0
-        version: 15.5.0
+        version: 15.5.2
       '@textlint/types':
         specifier: ^15.5.0
         version: 15.5.0
@@ -478,8 +478,11 @@ packages:
   '@textlint/ast-node-types@15.5.0':
     resolution: {integrity: sha512-K0LEuuTo4rza8yDrlYkRdXLao8Iz/QBMsQdIxRrOOrLYb4HAtZaypZ78c+J6rDA1UlGxadZVLmkkiv4KV5fMKQ==}
 
-  '@textlint/ast-tester@15.5.0':
-    resolution: {integrity: sha512-G/DhhuRETUVzRiZw2joZrEG52j2Lq9hY//ohVvxcFva9BI+NqYe4wyqg93QXYYg4jPDEgjX8yQ3CvdOlLvQvmA==}
+  '@textlint/ast-node-types@15.5.2':
+    resolution: {integrity: sha512-fCaOxoup5LIyBEo7R1oYWE7V4bSX0KQeHh66twon9e9usaLE3ijgF8QjYsR6joCssdeCHVd0wHm7ppsEyTr6vg==}
+
+  '@textlint/ast-tester@15.5.2':
+    resolution: {integrity: sha512-xlGt3fEUC9NkGNmd7WIzIoQvxs/fOISvrco6fedSCCji0iqVwc6fw4atb2iTM/eGg4IbPlBVpjnLBduB5FpekA==}
 
   '@textlint/types@15.5.0':
     resolution: {integrity: sha512-EjAPbuA+3NyQ9WyFP7iUlddi35F3mGrf4tb4cZM0nWywbtEJ3+XAYqL+5RsF0qFeSguxGir09NdZOWrG9wVOUQ==}
@@ -1425,9 +1428,11 @@ snapshots:
 
   '@textlint/ast-node-types@15.5.0': {}
 
-  '@textlint/ast-tester@15.5.0':
+  '@textlint/ast-node-types@15.5.2': {}
+
+  '@textlint/ast-tester@15.5.2':
     dependencies:
-      '@textlint/ast-node-types': 15.5.0
+      '@textlint/ast-node-types': 15.5.2
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
