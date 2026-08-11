@@ -12,7 +12,7 @@
     "provenance": true
   },
   "scripts": {
-    "test": "tsx --test",
+    "test": "node --test",
     "format": "biome format --write .",
     "lint": "biome lint --write .",
     "check": "biome check --fix .",
@@ -36,7 +36,6 @@
     "@textlint/ast-tester": "^15.5.0",
     "@types/node": "^25.0.3",
     "tsdown": "^0.22.14",
-    "tsx": "^4.21.0",
     "typescript": "^7.0.0",
     "@textlint/ast-node-types": "^15.5.0",
     "@textlint/types": "^15.5.0"
