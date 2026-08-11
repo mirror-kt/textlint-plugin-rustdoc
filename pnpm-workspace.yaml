@@ -1,3 +1,6 @@
+nodeVersion: 25.9.0
+engineStrict: true
+
 allowBuilds:
   '@keqingmoe/tree-sitter': true
   esbuild: true
