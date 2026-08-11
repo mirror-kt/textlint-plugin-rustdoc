@@ -1,3 +1,7 @@
+allowBuilds:
+  '@keqingmoe/tree-sitter': true
+  esbuild: true
+  tree-sitter-rust: true
 onlyBuiltDependencies:
   - '@keqingmoe/tree-sitter'
   - esbuild
