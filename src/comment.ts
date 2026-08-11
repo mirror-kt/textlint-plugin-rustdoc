@@ -278,6 +278,6 @@ export function traverse(docNode: SyntaxNode): TxtStrNode | null {
   return createStrNode(docNode, docType);
 }
 
-// 型とユーティリティ関数をエクスポート
-export { getRustdocType, extractContent, groupConsecutiveNodes };
 export type { RustdocType };
+// 型とユーティリティ関数をエクスポート
+export { extractContent, getRustdocType, groupConsecutiveNodes };
