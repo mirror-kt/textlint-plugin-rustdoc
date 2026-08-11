@@ -26,7 +26,7 @@ importers:
         version: 2.31.1(@types/node@25.9.5)
       '@textlint/ast-node-types':
         specifier: ^15.5.0
-        version: 15.5.0
+        version: 15.8.0
       '@textlint/ast-tester':
         specifier: ^15.5.0
         version: 15.8.0
@@ -645,9 +645,6 @@ packages:
     resolution: {integrity: sha512-hYT5d3YNdSh3mbCU1gwQyPgQd3T2ne0A3KG8KSBdav5TiBg6eInVmV+TeR5uHufiIgSFg0XsOWGW5/RhNcSvPg==}
     cpu: [x64]
     os: [win32]
-
-  '@textlint/ast-node-types@15.5.0':
-    resolution: {integrity: sha512-K0LEuuTo4rza8yDrlYkRdXLao8Iz/QBMsQdIxRrOOrLYb4HAtZaypZ78c+J6rDA1UlGxadZVLmkkiv4KV5fMKQ==}
 
   '@textlint/ast-node-types@15.8.0':
     resolution: {integrity: sha512-5CiH9COYmovWmExQgs7763DzX6Gy9zjkjJ7JxCC95wyTcjwQn/8poNF6fv3qzRlmx8CRRde8DHr9FcgAAiPzgw==}
@@ -1668,8 +1665,6 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.54.0':
     optional: true
-
-  '@textlint/ast-node-types@15.5.0': {}
 
   '@textlint/ast-node-types@15.8.0': {}
 
