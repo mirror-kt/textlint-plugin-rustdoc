@@ -16,7 +16,7 @@
     "format": "biome format --write .",
     "lint": "biome lint --write .",
     "check": "biome check --fix .",
-    "build": "tsc --noEmit && tsup-node",
+    "build": "tsc --noEmit && tsdown",
     "release": "pnpm run build && changeset publish"
   },
   "keywords": [
@@ -35,7 +35,7 @@
     "@changesets/cli": "^2.29.8",
     "@textlint/ast-tester": "^15.5.0",
     "@types/node": "^25.0.3",
-    "tsup": "^8.5.1",
+    "tsdown": "^0.22.14",
     "tsx": "^4.21.0",
     "typescript": "^7.0.0",
     "@textlint/ast-node-types": "^15.5.0",
