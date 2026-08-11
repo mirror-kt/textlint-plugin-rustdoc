@@ -6,7 +6,7 @@ import type {
   TxtParagraphNode,
 } from "@textlint/ast-node-types";
 import { test as testAst } from "@textlint/ast-tester";
-import { RustdocProcessor } from "./RustdocProcessor.js";
+import { RustdocProcessor } from "./RustdocProcessor.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 

@@ -7,7 +7,7 @@ import type {
   TextlintPluginProcessor,
 } from "@textlint/types";
 import RustLanguage from "tree-sitter-rust";
-import { convertToTextlintAst } from "./comment.js";
+import { convertToTextlintAst } from "./comment.ts";
 
 // Rustdocコメントを抽出するクエリ
 // 行コメントとブロックコメントを全て取得し、後でフィルタリング
