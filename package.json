@@ -32,7 +32,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.6",
     "@changesets/changelog-github": "^0.7.0",
-    "@changesets/cli": "^2.29.8",
+    "@changesets/cli": "^3.0.0",
     "@textlint/ast-tester": "^15.5.0",
     "@types/node": "^25.0.3",
     "tsdown": "^0.22.14",
